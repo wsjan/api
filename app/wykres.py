@@ -4,7 +4,8 @@ import bokeh.plotting as bp
 from bokeh.models import DatetimeTickFormatter, Legend
 from bokeh.models.tools import HoverTool
 from bokeh.io import output_file
-        
+import pandas as pd
+
 #%%
 def create_plot(df, x=None, size=(None, None), title=None, colors=None, circles=True, output=None):
     '''

@@ -14,7 +14,7 @@ from typing import List
 from datetime import datetime
 import pandas as pd
 from sqlite3 import connect
-from app.wykres import create_plot
+from .wykres import create_plot
 
 #%%
 def is_browser(request):
