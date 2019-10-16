@@ -4,3 +4,4 @@ uvicorn
 pandas
 bokeh
 pydantic
+email-validator
